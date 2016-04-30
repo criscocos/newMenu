@@ -90,9 +90,9 @@ label{
     margin: 0.5em 0 0 0;
 }
 @media (max-width:480px){
-.top-menu {
+.top-menu ul li{
     font-size: 50%;
-	text-align: center;
+    text-align: center;
     }
 }
 .top-menu ul li {
