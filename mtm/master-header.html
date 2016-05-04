@@ -73,6 +73,13 @@
                 </div>
                 <!-- script-for-menu -->
                 <script>
+                
+                 $(document).ready(function() {
+                     var array = ["p", "a", "t", "s"];
+                     for(var i = 0; i < array.length; i++)
+                         $(".top-submenu-" + array[i]).slideUp("fast");
+                    });
+                    
 				$( "span.menu" ).click(function() {
 				  $( ".top-menu" ).slideToggle( "slow", function() {
 				    // Animation complete.
