@@ -1,14 +1,13 @@
 function setVersion() {
     var width = $(window).width();
-        
-        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-                $("#mheader").show();
-                $("#header").hide();
+    if(width > 469) {
+                $("#header").show();
+                $("#mheader").hide();
             }
             
             else {
-                $("#mheader").hide();
-                $("#header").show();
+                $("#header").hide();
+                $("#mheader").show();
             }
         
         $(window).resize(function () {
