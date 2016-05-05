@@ -1,27 +1,26 @@
-<!DOCTYPE HTML>
-
-<html>
-
 <!--start-home-->
     <div class="banner">
         <div class="container">
-            <img src="images/banner.png" alt="Paroscientific" width="100%" height="100%" usemap="#contactUs" />
+            <img src="images/banner.gif" alt="Paroscientific" width="100%" height="100%" usemap="#contactUs" />
             <map name="contactUs">
-                <area shape="rect" coords="945, 115, 1110, 157" href="http://www.google.com" alt="Contact Us" />
+                <area shape="rect" coords="925, 115, 1090, 157" href="http://www.google.com" alt="Contact Us" />
             </map>
         </div>
     </div>
     <div id="home" class="header">
         <div class="header-top">
             <div class="container">
-                <span class="menu"></span>
-                <div class="top-menu">
-                    <ul class="cl-effect-16">
-                        <li><a class="active" href="index.html">Home</a></li>
-                        <li>-</li>
-                        <li><a><span class="submenu-p">Products</span></a></li>
-                        <div class="top-submenu-p">
-                        <ul>
+                <span></span>
+                <div class="top-menu" data-example-id="nav-tabs-with-dropdown">
+                    <ul class="nav nav-tab">
+                        <li role="presentation"><a href="index.html">Home</a></li>
+
+                        <li role="presentation" class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                Products
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
                                 <li><a href="#">Transducers</a></li>
                                 <li><a href="#">Transmitters</a></li>
                                 <li><a href="#">Depth Sensors</a></li>
@@ -30,35 +29,42 @@
                                 <li><a href="#">Water Stage Sensors</a></li>
                                 <li><a href="#">Meteorological Systems</a></li>
                                 <li><a href="#">Accessories</a></li>
-                        </ul>
-                        </div>
-                        <li>-</li>
-                        <li><a><span class="submenu-a">Application</span></a></li>
-                        <div class="top-submenu-a">
-                        <ul>
+                            </ul>
+                        </li>
+
+                        <li role="presentation" class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                Application
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
                                 <li><a href="#">Disaster Warning And<br /> Geodetic Research</a></li>
                                 <li><a href="#">Oceanography</a></li>
                                 <li><a href="#">Offshore Vehicles</a></li>
                                 <li><a href="#">Metrology</a></li>
                                 <li><a href="#">Hydrology</a></li>
                                 <li><a href="#">Aerospace</a></li>
-                        </ul>
-                        </div>
-                        <li>-</li>
-                        <li><a><span class="submenu-t">Technical Library</span></a></li>
-                        <div class="top-submenu-t">
-                        <ul>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                Techinical Library
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
                                 <li><a href="#">Action</a></li>
                                 <li><a href="#">Another action</a></li>
                                 <li><a href="#">Something else here</a></li>
                                 <li role="separator" class="divider"></li>
                                 <li><a href="#">Separated link</a></li>
-                        </ul>
-                        </div>
-                        <li>-</li>
-                        <li><a><span class="submenu-s">Support</span></a></li>
-                        <div class="top-submenu-s">
-                        <ul>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                Support
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
                                 <li><a href="#">Software And Manuals</a></li>
                                 <li><a href="#">Repair and Calibration</a></li>
                                 <li><a href="#">App and tech questions</a></li>
@@ -67,54 +73,10 @@
                                 <li><a href="#">technical papers</a></li>
                                 <li><a href="#">terms of sale</a></li>
                                 <li><a href="#">warranty</a></li>
-                        </ul>
-                        </div>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
-                <!-- script-for-menu -->
-                <script>
-                
-                 $(document).ready(function() {
-                     var array = ["p", "a", "t", "s"];
-                     for(var i = 0; i < array.length; i++)
-                         $(".top-submenu-" + array[i]).slideUp("fast");
-                    });
-                    
-				$( "span.menu" ).click(function() {
-				  $( ".top-menu" ).slideToggle( "slow", function() {
-				    // Animation complete.
-				  });
-				});
-                    
-                $("span.submenu-p").click(function() {
-                   $( ".top-submenu-p" ).slideToggle( "slow", function() {
-				    // Animation complete.
-				  });
-                });    
-                
-                $("span.submenu-a").click(function() {
-                   $( ".top-submenu-a" ).slideToggle( "slow", function() {
-				    // Animation complete.
-				  });
-                });
-                
-                $("span.submenu-t").click(function() {
-                   $( ".top-submenu-t" ).slideToggle( "slow", function() {
-				    // Animation complete.
-				  });
-                });
-                    
-                $("span.submenu-s").click(function() {
-                   $( ".top-submenu-s" ).slideToggle( "slow", function() {
-				    // Animation complete.
-				  });
-                });    
-                    
-                </script>
-                <div class="clearfix"></div>
-                <!--End-top-nav-script-->
             </div>
         </div>
-
     </div>
-</html>

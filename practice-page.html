@@ -12,15 +12,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     
 <script>
     $(document).ready(function() {
-        $("#mheader").load('mtm/master-header.html');
-        $("#mfooter").load('mtm/master-footer.html');
+        $("#mheader").load('mtm/master-header-mobile.html');
+        $("#header").load('mtm/master-header.html');
+        $("#footer").load('mtm/master-footer.html');
+        
+        setVersion();
     	});
 </script>
 </head>
 
 <body>
     
-    <div id="mheader"></div>
+    <div id ="mheader"></div>
+    <div id="header"></div>
     
     <!--/contact-->
 	 <div class="section-contact">
@@ -64,17 +68,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
      </div>
 <!--//contact-->
     
-    <!--map-->
-	 <div class="container">
-	      <h3 class="tittle">Find Us</h3>
-			<div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.7677290838315!2d-122.14445358416182!3d47.65008029296627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906d6a43eaff9d%3A0x434e15fb917c011c!2sParoscientific+Inc!5e0!3m2!1sen!2sus!4v1458855137535" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-				<span> </span>
-			</div>
-    </div>
-	<!--//map-->
-    
-    <div id="mfooter"></div>
+    <div id="footer"></div>
 
 </body>
 </html>
