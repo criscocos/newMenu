@@ -241,6 +241,10 @@ nav a:focus {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    
+    ul.mobile-ul {
+        background-color: #214D70;
+    }
 	
 }
 /*--start-home--*/
