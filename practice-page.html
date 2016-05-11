@@ -8,25 +8,17 @@
 <meta name="keywords" content="Legalized Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>    
-    
-    
-    <link rel="import" href="mtm/master-head.html">
-    
+ 
+<!--All you have to do is call this...-->    
+<link rel="import" href="mtm/master-head.html">    
+
+<!--...And this. The rest is history brother-->    
 <script>
-    $(document).ready(function() {
-        $("#mheader").load('mtm/master-header-mobile.html');
-        $("#header").load('mtm/master-header.html');
-        $("#footer").load('mtm/master-footer.html');
-        
-        setVersion();
-    	});
+    $(document).ready(masterFunction);
 </script>
 </head>
 
 <body>
-    
-    <div id="mheader"></div>
-    <div id="header"></div>
     
     <!--/contact-->
 	 <div class="section-contact">
@@ -69,8 +61,5 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	       </div>
      </div>
 <!--//contact-->
-    
-    <div id="footer"></div>
-
 </body>
 </html>
